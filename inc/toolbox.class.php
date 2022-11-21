@@ -188,7 +188,8 @@ class PluginSinglesignonToolbox {
          $btn .= ' ';
       }
 
-      $btn .= sprintf(__sso('Login with %s'), $data['name']);
+      // $btn .= sprintf(__sso('Login with %s'), $data['name']);
+      $btn .= sprintf(__sso('Se connecter à %s'), $data['name']);
       $btn .= '</a></span>';
       return $btn;
    }
